@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Demo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+        }
+
+        #carouselFitness {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 0 20px;
+        }
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.jpeg" height="99" width="85"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#sectiunea1">Despre noi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sectiunea2">Programe de Antrenament</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sectiunea3">Facilități și Servicii</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="carouselFitness" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/img/active-beautiful-beauty-866027.jpg" class="d-block w-100" alt="Activitate Fitness">
+        </div>
+        <div class="carousel-item">
+            <img src="/img/yoga-woman1.jpg" class="d-block w-100" alt="Bodybuilder">
+        </div>
+        <div class="carousel-item">
+            <img src="/img/diet-695723_1280.jpg" class="d-block w-100" alt="Dietă Sănătoasă">
+        </div>
+        <div class="carousel-item">
+            <img src="/img/yoga-woman1.jpg" class="d-block w-100" alt="Antrenament Fitness">
+        </div>
+        <div class="carousel-item">
+            <img src="/img/man-2037255_1280.jpg" class="d-block w-100" alt="Exerciții Fizice">
+        </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselFitness" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Precedent</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselFitness" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Următor</span>
+    </a>
+</div>
+
+<section id="sectiunea1">
+    <h2>Despre Noi</h2>
+    <p>Bine ați venit la sala noastră de fitness, un loc unde pasiunea pentru sănătate și fitness se întâlnește cu cele
+        mai moderne echipamente și antrenori profesioniști. Misiunea noastră este să vă oferim un mediu sigur și
+        motivant pentru a atinge obiectivele dvs. de fitness, indiferent de nivelul de experiență.</p>
+</section>
+
+<!-- Sectiunea 2: Programe de Antrenament -->
+<section id="sectiunea2">
+    <h2>Programe de Antrenament</h2>
+    <p>La sala noastră, oferim o varietate de programe de antrenament pentru a se potrivi nevoilor fiecărei persoane. De
+        la yoga și pilates, până la HIIT și antrenamente de forță, avem ceva pentru toată lumea. Antrenorii noștri sunt
+        certificați și gata să vă ghideze prin fiecare pas, asigurându-se că executați fiecare mișcare în siguranță și
+        eficient.</p>
+</section>
+
+<section id="sectiunea3">
+    <h2>Facilități și Servicii</h2>
+    <div class="card-deck">
+        <div class="card">
+            <img src="/img/sportive-couple.jpg" class="card-img-top" alt="Echipamente de Ultimă Generație"
+                 style="object-fit: cover; height: 200px;">
+            <div class="card-body">
+                <h5 class="card-title">Echipamente de Ultimă Generație</h5>
+                <p class="card-text">Sala noastră este dotată cu echipamente de fitness de ultimă generație, perfecte
+                    pentru un antrenament complet, fie că sunteți începător sau avansat.</p>
+                <span class="badge badge-success">Disponibil</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/img/yoga-woman1.jpg" class="card-img-top" alt="Programe Personalizate"
+                 style="object-fit: cover; height: 200px;">
+            <div class="card-body">
+                <h5 class="card-title">Programe Personalizate</h5>
+                <p class="card-text">Oferim programe personalizate de antrenament pentru a vă ajuta să atingeți
+                    obiectivele dorite, indiferent dacă doriți să pierdeți în greutate, să vă tonifiați sau să
+                    construiți masă musculară.</p>
+                <span class="badge badge-info">Nou</span>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/active-beautiful-beauty-866027.jpg" class="card-img-top" alt="Programe Personalizate"
+                 style="object-fit: cover; height: 200px;">
+            <div class="card-body">
+                <h5 class="card-title">Antrenamente Personalizate</h5>
+                <p class="card-text">Descoperiți puterea antrenamentelor personalizate! Fie că sunteți un începător sau
+                    un atlet experimentat, programele noastre sunt concepute să se adapteze perfect nevoilor și
+                    obiectivelor dumneavoastră. Vă vom ajuta să definiți și să atingeți obiectivele de fitness, fie că
+                    este vorba de slăbire, tonifiere, creșterea masei musculare sau îmbunătățirea rezistenței
+                    generale.</p>
+                <span class="badge badge-primary">Personalizat</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+        <!-- Sectiune Contact si Social Media -->
+        <div class="row">
+            <!-- Contact -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Contactați-ne</h5>
+                <p>
+                    Adresa: Strada Exemplu 123, Orașul, Țara<br>
+                    Telefon: +40 123 456 789<br>
+                    Email: contact@saladefitness.ro
+                </p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Urmăriți-ne</h5>
+                <a href="https://www.facebook.com/yourpage" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com/yourpage" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/yourpage" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/yourpage" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Drepturi de autor -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; 2024 Sala de Fitness. Toate drepturile rezervate.
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
